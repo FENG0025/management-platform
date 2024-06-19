@@ -54,7 +54,7 @@ const handleCommand = async (key) => {
       <div class="el-aside__logo"></div>
       <el-menu
         active-text-color="#ffd04b"
-        background-color="#232323"
+        background-color="#9fcf9f"
         :default-active="$route.path"
         text-color="#fff"
         router
@@ -94,7 +94,7 @@ const handleCommand = async (key) => {
     <el-container>
       <el-header>
         <div>
-          黑马程序员：<strong>{{
+          <strong>{{
             userStore.user.nickname || userStore.user.username
           }}</strong>
         </div>
@@ -127,7 +127,7 @@ const handleCommand = async (key) => {
       <el-main>
         <router-view></router-view>
       </el-main>
-      <el-footer>大事件 ©2023 Created by 黑马程序员</el-footer>
+      <el-footer>这是feng的个人项目</el-footer>
     </el-container>
   </el-container>
 </template>
@@ -136,7 +136,7 @@ const handleCommand = async (key) => {
 .layout-container {
   height: 100vh;
   .el-aside {
-    background-color: #232323;
+    background-color: #9fcf9f;
     &__logo {
       height: 120px;
       background: url('@/assets/logo.png') no-repeat center / 120px auto;

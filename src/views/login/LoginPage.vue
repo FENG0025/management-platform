@@ -217,8 +217,7 @@ watch(isRegister, () => {
   height: 100vh;
   background-color: #fff;
   .bg {
-    background: url('@/assets/logo2.png') no-repeat 60% center / 240px auto,
-      url('@/assets/login_bg.jpg') no-repeat center / cover;
+    background: url('@/assets/login_bg5.jpg') no-repeat center / cover;
     border-radius: 0 20px 20px 0;
   }
   .form {
